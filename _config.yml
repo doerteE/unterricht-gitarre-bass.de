@@ -1,0 +1,19 @@
+title: Peter Karliczek
+url: "http://localhost:4000"
+description: Peter Karliczek, Unterricht in Gitarre und Bass für Menschen jeden Alters, 27449 Kutenholz
+keywords: Peter Karliczek, Kutenholz, Unterricht, Gitarre, Bass
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+
+gems:
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+  auto_ids: false
